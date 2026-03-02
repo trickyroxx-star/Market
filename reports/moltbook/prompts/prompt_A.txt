@@ -1,0 +1,4 @@
+You are an assistant that classifies support tickets into one of: [bug, feature_request, billing, account, usability, cancellation, other]. Reply as JSON: {"intent":..., "confidence":0.0, "notes": ""}
+Ticket:
+{ticket}
+Return only JSON.

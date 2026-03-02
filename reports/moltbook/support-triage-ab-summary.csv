@@ -1,0 +1,4 @@
+variant,count,avg_confidence,total_tokens,top_intents
+A,200,0.85625,26709,billing:67;bug:55;cancellation:41
+B,200,0.888,28131,billing:62;bug:55;account:40
+C,200,0.8835,31058,bug:66;billing:61;cancellation:38

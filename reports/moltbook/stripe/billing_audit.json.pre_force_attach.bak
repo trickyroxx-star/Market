@@ -1,0 +1,288 @@
+[
+  {
+    "candidate_id": "e97fda9a-fb4e-4c70-b161-c69709455bbd",
+    "date": "2026-03-01",
+    "customer_id": "cust_01",
+    "billable_amount_usd": 0.756,
+    "cost_usd": 1.44353,
+    "details": {
+      "calls": 29,
+      "tokens": 57560
+    }
+  },
+  {
+    "candidate_id": "0cd4fc0c-f962-4790-bb4f-51fbf825c086",
+    "date": "2026-03-01",
+    "customer_id": "cust_02",
+    "billable_amount_usd": 2.1167000000000002,
+    "cost_usd": 2.35079,
+    "details": {
+      "calls": 39,
+      "tokens": 71167
+    }
+  },
+  {
+    "candidate_id": "5329ed97-d08d-4216-8047-dd3e01ea8755",
+    "date": "2026-03-01",
+    "customer_id": "cust_03",
+    "billable_amount_usd": 1.0189000000000001,
+    "cost_usd": 1.9633200000000002,
+    "details": {
+      "calls": 30,
+      "tokens": 60189
+    }
+  },
+  {
+    "candidate_id": "24708eb4-3a8e-448f-9b3f-f5d576dce9df",
+    "date": "2026-03-01",
+    "customer_id": "cust_04",
+    "billable_amount_usd": 1.0678,
+    "cost_usd": 2.02505,
+    "details": {
+      "calls": 36,
+      "tokens": 60678
+    }
+  },
+  {
+    "candidate_id": "f1f51188-d1e9-4a3d-9d96-7b6eb7f029f9",
+    "date": "2026-03-01",
+    "customer_id": "cust_05",
+    "billable_amount_usd": 3.0441000000000003,
+    "cost_usd": 1.85378,
+    "details": {
+      "calls": 41,
+      "tokens": 80441
+    }
+  },
+  {
+    "candidate_id": "a7fda824-c84c-4374-af50-102bd2873b60",
+    "date": "2026-03-01",
+    "customer_id": "cust_07",
+    "billable_amount_usd": 0.6588,
+    "cost_usd": 1.2252100000000001,
+    "details": {
+      "calls": 30,
+      "tokens": 56588
+    }
+  },
+  {
+    "candidate_id": "7f55f94e-f7a0-4ba7-8d88-edb11c15e74b",
+    "date": "2026-03-01",
+    "customer_id": "cust_08",
+    "billable_amount_usd": 0.0305,
+    "cost_usd": 0.86425,
+    "details": {
+      "calls": 30,
+      "tokens": 50305
+    }
+  },
+  {
+    "candidate_id": "b57288f5-ccfa-43aa-a0ed-73792802616f",
+    "date": "2026-03-01",
+    "customer_id": "cust_10",
+    "billable_amount_usd": 0.7601,
+    "cost_usd": 1.51709,
+    "details": {
+      "calls": 32,
+      "tokens": 57601
+    }
+  },
+  {
+    "candidate_id": "cf0a8b4b-30d5-4c5f-b9db-fa58a007c2c3",
+    "date": "2026-03-01",
+    "customer_id": "cust_01",
+    "billable_amount_usd": 1.0814000000000001,
+    "cost_usd": 1.47607,
+    "details": {
+      "calls": 31,
+      "tokens": 60814
+    }
+  },
+  {
+    "candidate_id": "dd7c5a1c-bb95-4224-905e-b1aa220f0498",
+    "date": "2026-03-01",
+    "customer_id": "cust_02",
+    "billable_amount_usd": 2.7388000000000003,
+    "cost_usd": 2.4130000000000003,
+    "details": {
+      "calls": 41,
+      "tokens": 77388
+    }
+  },
+  {
+    "candidate_id": "4b79faa9-3ea8-4b3c-a7af-3bfa09dde4bd",
+    "date": "2026-03-01",
+    "customer_id": "cust_03",
+    "billable_amount_usd": 1.2117000000000002,
+    "cost_usd": 2.11756,
+    "details": {
+      "calls": 31,
+      "tokens": 62117
+    }
+  },
+  {
+    "candidate_id": "bd385673-0965-4bac-a870-0e8d0440acd2",
+    "date": "2026-03-01",
+    "customer_id": "cust_04",
+    "billable_amount_usd": 1.0678,
+    "cost_usd": 2.02505,
+    "details": {
+      "calls": 36,
+      "tokens": 60678
+    }
+  },
+  {
+    "candidate_id": "9472c688-aec3-440b-8553-476fa892eb30",
+    "date": "2026-03-01",
+    "customer_id": "cust_05",
+    "billable_amount_usd": 3.5317000000000003,
+    "cost_usd": 1.9674299999999998,
+    "details": {
+      "calls": 45,
+      "tokens": 85317
+    }
+  },
+  {
+    "candidate_id": "72408a39-186a-4a0f-9d79-2f301970168d",
+    "date": "2026-03-01",
+    "customer_id": "cust_06",
+    "billable_amount_usd": 0.0018,
+    "cost_usd": 1.33395,
+    "details": {
+      "calls": 26,
+      "tokens": 50018
+    }
+  },
+  {
+    "candidate_id": "cbcf7e14-2f9d-4060-b976-4e4137d75921",
+    "date": "2026-03-01",
+    "customer_id": "cust_07",
+    "billable_amount_usd": 1.3522,
+    "cost_usd": 1.5681800000000001,
+    "details": {
+      "calls": 35,
+      "tokens": 63522
+    }
+  },
+  {
+    "candidate_id": "9918d19a-867f-4594-92e8-9ff0a7e1f01d",
+    "date": "2026-03-01",
+    "customer_id": "cust_08",
+    "billable_amount_usd": 0.2484,
+    "cost_usd": 0.8860399999999999,
+    "details": {
+      "calls": 31,
+      "tokens": 52484
+    }
+  },
+  {
+    "candidate_id": "0c84231e-c940-4137-b209-3ad25af1f85c",
+    "date": "2026-03-01",
+    "customer_id": "cust_10",
+    "billable_amount_usd": 1.3466,
+    "cost_usd": 1.83712,
+    "details": {
+      "calls": 36,
+      "tokens": 63466
+    }
+  },
+  {
+    "candidate_id": "d9ba04ac-f6a7-4848-8b0c-f8f2f5678e0b",
+    "date": "2026-03-01",
+    "customer_id": "cust_01",
+    "billable_amount_usd": 1.0814000000000001,
+    "cost_usd": 1.47607,
+    "details": {
+      "calls": 31,
+      "tokens": 60814
+    }
+  },
+  {
+    "candidate_id": "fb4f5add-6245-4882-8db9-cd4bb33d8a80",
+    "date": "2026-03-01",
+    "customer_id": "cust_02",
+    "billable_amount_usd": 2.7388000000000003,
+    "cost_usd": 2.4130000000000003,
+    "details": {
+      "calls": 41,
+      "tokens": 77388
+    }
+  },
+  {
+    "candidate_id": "edaebad0-bb95-4094-a3b4-710f696febf7",
+    "date": "2026-03-01",
+    "customer_id": "cust_03",
+    "billable_amount_usd": 1.2117000000000002,
+    "cost_usd": 2.11756,
+    "details": {
+      "calls": 31,
+      "tokens": 62117
+    }
+  },
+  {
+    "candidate_id": "b02ace42-0820-414f-9c47-e2132842f773",
+    "date": "2026-03-01",
+    "customer_id": "cust_04",
+    "billable_amount_usd": 1.0678,
+    "cost_usd": 2.02505,
+    "details": {
+      "calls": 36,
+      "tokens": 60678
+    }
+  },
+  {
+    "candidate_id": "f3bb4295-0edf-46e7-a00a-97e63fdaa7a7",
+    "date": "2026-03-01",
+    "customer_id": "cust_05",
+    "billable_amount_usd": 3.5317000000000003,
+    "cost_usd": 1.9674299999999998,
+    "details": {
+      "calls": 45,
+      "tokens": 85317
+    }
+  },
+  {
+    "candidate_id": "385d76b0-8699-499d-8e26-13b7a4c5ee3e",
+    "date": "2026-03-01",
+    "customer_id": "cust_06",
+    "billable_amount_usd": 0.0018,
+    "cost_usd": 1.33395,
+    "details": {
+      "calls": 26,
+      "tokens": 50018
+    }
+  },
+  {
+    "candidate_id": "e9695cc8-e0f2-4c61-94a9-196371a01b2c",
+    "date": "2026-03-01",
+    "customer_id": "cust_07",
+    "billable_amount_usd": 1.3522,
+    "cost_usd": 1.5681800000000001,
+    "details": {
+      "calls": 35,
+      "tokens": 63522
+    }
+  },
+  {
+    "candidate_id": "6ce86b6e-d965-4f6e-8830-abbd0b870ce0",
+    "date": "2026-03-01",
+    "customer_id": "cust_08",
+    "billable_amount_usd": 0.2484,
+    "cost_usd": 0.8860399999999999,
+    "details": {
+      "calls": 31,
+      "tokens": 52484
+    }
+  },
+  {
+    "candidate_id": "05395db9-6700-4893-a8da-7fb13c30644d",
+    "date": "2026-03-01",
+    "customer_id": "cust_10",
+    "billable_amount_usd": 1.3466,
+    "cost_usd": 1.83712,
+    "details": {
+      "calls": 36,
+      "tokens": 63466
+    }
+  }
+]

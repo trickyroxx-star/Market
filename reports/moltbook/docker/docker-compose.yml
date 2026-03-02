@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: molt
+      POSTGRES_PASSWORD: moltpass
+      POSTGRES_DB: molt
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+  collector:
+    build: ./collector
+    environment:
+      DATABASE_URL: postgres://molt:moltpass@postgres:5432/molt
+    ports:
+      - '4000:4000'
+    volumes:
+      - ../:/app
+    depends_on:
+      - postgres
+  worker:
+    build: ./worker
+    environment:
+      DATABASE_URL: postgres://molt:moltpass@postgres:5432/molt
+    volumes:
+      - ../:/app
+    depends_on:
+      - postgres
+volumes:
+  pgdata:

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "free",
+      "name": "Moltbook Free",
+      "description": "Free developer tier: limited tokens per month",
+      "price_cents": 0,
+      "currency": "usd",
+      "metadata": {"tier":"free"}
+    },
+    {
+      "id": "pro_monthly",
+      "name": "Moltbook Pro Monthly",
+      "description": "Pro: $29/mo subscription with higher free allowance and lower per-token pricing",
+      "price_cents": 2900,
+      "currency": "usd",
+      "metadata": {"tier":"pro"}
+    },
+    {
+      "id": "pro_plus_monthly",
+      "name": "Moltbook Pro+ Monthly",
+      "description": "Pro+: $49/mo subscription for power users",
+      "price_cents": 4900,
+      "currency": "usd",
+      "metadata": {"tier":"pro_plus"}
+    }
+  ],
+  "usage_pricing": {
+    "per_1k_tokens_usd": 0.10,
+    "free_allowance_tokens_per_month": 50000
+  }
+}

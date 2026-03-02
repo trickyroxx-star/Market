@@ -1,0 +1,4 @@
+You are an assistant that classifies support tickets into one of: [bug, feature_request, billing, account, usability, cancellation, other]. Consider customer metadata when classifying. Reply as JSON with intent/confidence/notes.
+Ticket:
+{ticket}
+Return only JSON.

@@ -1,0 +1,4 @@
+First extract key facts from the ticket, then classify into [bug, feature_request, billing, account, usability, cancellation, other]. Return JSON {"intent":"","confidence":0.0,"facts":[],"notes":""}.
+Ticket:
+{ticket}
+Return only JSON.

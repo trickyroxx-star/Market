@@ -1,0 +1,41 @@
+{
+  "variants": {
+    "A": {
+      "count": 200,
+      "intent_counts": {
+        "account": 30,
+        "cancellation": 41,
+        "billing": 67,
+        "bug": 55,
+        "feature_request": 7
+      },
+      "avg_confidence": 0.85625,
+      "total_tokens": 26709
+    },
+    "B": {
+      "count": 200,
+      "intent_counts": {
+        "account": 40,
+        "cancellation": 39,
+        "billing": 62,
+        "bug": 55,
+        "feature_request": 4
+      },
+      "avg_confidence": 0.888,
+      "total_tokens": 28131
+    },
+    "C": {
+      "count": 200,
+      "intent_counts": {
+        "account": 17,
+        "cancellation": 38,
+        "bug": 66,
+        "billing": 61,
+        "feature_request": 16,
+        "usability": 2
+      },
+      "avg_confidence": 0.8835,
+      "total_tokens": 31058
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "name": "Moltbook Free",
+      "id": "prod_U4JLv7gqvOTW4R"
+    },
+    {
+      "name": "Moltbook Pro Monthly",
+      "id": "prod_U4JLvwli1EngaY"
+    },
+    {
+      "name": "Moltbook Pro+ Monthly",
+      "id": "prod_U4JLXZyMvImoEi"
+    }
+  ],
+  "prices": [
+    {
+      "name": "Moltbook Free",
+      "id": "price_1T6AjF1Ty6VYRO3EQTnLZjyb"
+    },
+    {
+      "name": "Moltbook Pro Monthly",
+      "id": "price_1T6AjF1Ty6VYRO3ENwkhl5xI"
+    },
+    {
+      "name": "Moltbook Pro+ Monthly",
+      "id": "price_1T6AjG1Ty6VYRO3ENtF5QdXK"
+    }
+  ],
+  "usage_pricing": {
+    "per_1k_tokens_usd": 0.1,
+    "free_allowance_tokens_per_month": 50000
+  },
+  "usage_price": {
+    "id": "price_1T6AjG1Ty6VYRO3EEJujtm8N",
+    "per_1k": 0.1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "we_1T6CMC1Ty6VYRO3EzzwLLfng",
+  "secret": "whsec_LTwoBDSgi6vfFtjOS8uxgq2ESrTjxJ7q",
+  "url": "https://clear-socks-talk.loca.lt/stripe/webhook",
+  "events": [
+    "invoice.created",
+    "invoice.finalized",
+    "invoice.paid",
+    "invoice.payment_failed"
+  ]
+}
