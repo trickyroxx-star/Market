@@ -6,8 +6,12 @@ module.exports = async (req, res) => {
     const { email, return_url } = req.body || {};
     if (!email) return res.status(400).json({ error: 'missing email' });
 
-    const stripeKey = process.env.STRIPE_TEST_KEY || (require('fs').existsSync('/data/.openclaw/workspace/secrets/stripe_test.key') ? require('fs').readFileSync('/data/.openclaw/workspace/secrets/stripe_test.key','utf8').trim() : null);
-    if (!stripeKey) return res.status(500).json({ error: 'stripe key not configured' });
+    const fs = require('fs');
+    const envKey = process.env.STRIPE_TEST_KEY || null;
+    const fileKey = (fs.existsSync('/data/.openclaw/workspace/secrets/stripe_test.key') ? fs.readFileSync('/data/.openclaw/workspace/secrets/stripe_test.key','utf8').trim() : null);
+    const stripeKey = envKey || fileKey || null;
+    // debug: report which source provided the key
+    if (!stripeKey) return res.status(500).json({ error: 'stripe key not configured', env: !!envKey, file: !!fileKey });
 
     const stripe = Stripe(stripeKey);
 
