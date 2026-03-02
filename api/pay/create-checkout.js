@@ -16,13 +16,19 @@ module.exports = async (req, res) => {
     const stripe = Stripe(stripeKey);
 
     // Create a one-time price (or reuse if already exists). For simplicity, create a CheckoutSession with amount.
+    // Validate return_url
+    let successUrl = (return_url && String(return_url).startsWith('http')) ? return_url : 'https://example.com/';
+    let cancelUrl = (req.headers.origin && String(req.headers.origin).startsWith('http')) ? (req.headers.origin + '/?status=cancel') : 'https://example.com/';
+
+    console.log('creating stripe session', {email, successUrl, cancelUrl});
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       mode: 'payment',
       line_items: [{ price_data: { currency: 'usd', product_data: { name: 'Agent Market 30-day paid pilot' }, unit_amount: 49900 }, quantity: 1 }],
       customer_email: email,
-      success_url: return_url || (req.headers.origin || '') + '/?status=paid',
-      cancel_url: (req.headers.origin || '') + '/?status=cancel',
+      success_url: successUrl,
+      cancel_url: cancelUrl,
       metadata: { pilot: 'true', email: email }
     });
 
