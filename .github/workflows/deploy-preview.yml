@@ -1,0 +1,24 @@
+name: Deploy Preview
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch: {}
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vercel Preview Deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          cd workspace
+          # Adjust path/command to your project layout
+          if command -v vercel >/dev/null 2>&1; then
+            vercel --prod --confirm || true
+          else
+            echo "Vercel CLI not installed in runner; install and try locally or add a step to install vercel-cli."
+          fi

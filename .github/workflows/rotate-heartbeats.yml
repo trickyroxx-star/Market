@@ -1,0 +1,24 @@
+name: Rotate Heartbeats
+
+on:
+  schedule:
+    - cron: '10 2 * * *' # daily at 02:10 UTC
+  workflow_dispatch: {}
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run rotation script
+        run: |
+          chmod +x workspace/telemetry/rotation.sh || true
+          workspace/telemetry/rotation.sh
+
+      - name: Upload rotation backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: telemetry-rotation-backup
+          path: workspace/backups/telemetry_rotation_*/*.gz
